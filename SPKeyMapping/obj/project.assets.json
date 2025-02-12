@@ -1730,24 +1730,32 @@
     ]
   },
   "packageFolders": {
-    "/home/skrptz/.nuget/packages/": {}
+    "C:\\Users\\dosom\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/skrptz/Desktop/InitialD[PPSSPP]Controller/SPKeyMapping/SPKeyMapping.csproj",
+      "projectUniqueName": "C:\\Users\\dosom\\OneDrive\\Escritorio\\InitialD-PPSSPP-Controller\\SPKeyMapping\\SPKeyMapping.csproj",
       "projectName": "SPKeyMapping",
-      "projectPath": "/home/skrptz/Desktop/InitialD[PPSSPP]Controller/SPKeyMapping/SPKeyMapping.csproj",
-      "packagesPath": "/home/skrptz/.nuget/packages/",
-      "outputPath": "/home/skrptz/Desktop/InitialD[PPSSPP]Controller/SPKeyMapping/obj/",
+      "projectPath": "C:\\Users\\dosom\\OneDrive\\Escritorio\\InitialD-PPSSPP-Controller\\SPKeyMapping\\SPKeyMapping.csproj",
+      "packagesPath": "C:\\Users\\dosom\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dosom\\OneDrive\\Escritorio\\InitialD-PPSSPP-Controller\\SPKeyMapping\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/skrptz/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\dosom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1793,7 +1801,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

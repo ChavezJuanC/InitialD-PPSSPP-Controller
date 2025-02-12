@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SPKeyMapping")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e450403aa5bbad154b3ab2310658b8a3f16a0f56")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+68cc3e1407c76bf60e1712056ae6e8697a594078")]
 [assembly: System.Reflection.AssemblyProductAttribute("SPKeyMapping")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SPKeyMapping")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

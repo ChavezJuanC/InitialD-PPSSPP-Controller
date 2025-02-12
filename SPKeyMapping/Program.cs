@@ -2,8 +2,8 @@
 
 class Program
 {
-    static string comPort = "dev/ttyACM0";
-    static SerialPort serialPort = new SerialPort(comPort, 9600, Parity.None, 8, StopBits.One);
+    static string comPort = "COM4";
+    static readonly SerialPort serialPort = new(comPort, 9600, Parity.None, 8, StopBits.One);
 
     static void Main(string[] args)
     {
@@ -20,7 +20,27 @@ class Program
 
     private void spDataReceived(object sender, SerialDataReceivedEventArgs e)
     {
-        Console.WriteLine(serialPort.ReadExisting());
+        string data = serialPort.ReadExisting().Trim();
+
+        Console.WriteLine(data);
+
+        if (data == "1")
+        {
+            Console.WriteLine("Vrooom slower");
+        }
+        else if (data == "2")
+        {
+            Console.WriteLine("Vrooom forward");
+        }
+        else if (data == "3")
+        {
+            Console.WriteLine("Vrooom to the left");
+        }
+        else if (data == "4")
+        {
+            Console.WriteLine("Vrooom to the right");
+        }
+
     }
 }
 

@@ -17,18 +17,18 @@ void loop() {
   value2 = analogRead(joyPin2);
 
   if (value1 < 526) {
-    Serial.println("down");
+    Serial.println("1"); //down
   } else if (value1 > 528) {
-    Serial.println("up");
+    Serial.println("2"); //up
   }
 
   Serial.println("");
 
     if (value2 < 514) {
-    Serial.println("left");
+    Serial.println("3"); // left
   }
   else if (value2 > 516) {
-    Serial.println("right");
+    Serial.println("4"); // right
   }
 }
 
