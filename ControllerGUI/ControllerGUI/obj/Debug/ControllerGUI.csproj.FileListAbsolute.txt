@@ -1,0 +1,10 @@
+C:\Users\dosom\OneDrive\Escritorio\InitialD-PPSSPP-Controller\ControllerGUI\ControllerGUI\bin\Debug\ControllerGUI.exe.config
+C:\Users\dosom\OneDrive\Escritorio\InitialD-PPSSPP-Controller\ControllerGUI\ControllerGUI\bin\Debug\ControllerGUI.exe
+C:\Users\dosom\OneDrive\Escritorio\InitialD-PPSSPP-Controller\ControllerGUI\ControllerGUI\bin\Debug\ControllerGUI.pdb
+C:\Users\dosom\OneDrive\Escritorio\InitialD-PPSSPP-Controller\ControllerGUI\ControllerGUI\obj\Debug\ControllerGUI.csproj.AssemblyReference.cache
+C:\Users\dosom\OneDrive\Escritorio\InitialD-PPSSPP-Controller\ControllerGUI\ControllerGUI\obj\Debug\ControllerGUI.MainForm.resources
+C:\Users\dosom\OneDrive\Escritorio\InitialD-PPSSPP-Controller\ControllerGUI\ControllerGUI\obj\Debug\ControllerGUI.Properties.Resources.resources
+C:\Users\dosom\OneDrive\Escritorio\InitialD-PPSSPP-Controller\ControllerGUI\ControllerGUI\obj\Debug\ControllerGUI.csproj.GenerateResource.cache
+C:\Users\dosom\OneDrive\Escritorio\InitialD-PPSSPP-Controller\ControllerGUI\ControllerGUI\obj\Debug\ControllerGUI.csproj.CoreCompileInputs.cache
+C:\Users\dosom\OneDrive\Escritorio\InitialD-PPSSPP-Controller\ControllerGUI\ControllerGUI\obj\Debug\ControllerGUI.exe
+C:\Users\dosom\OneDrive\Escritorio\InitialD-PPSSPP-Controller\ControllerGUI\ControllerGUI\obj\Debug\ControllerGUI.pdb
