@@ -29,7 +29,7 @@ void loop() {
   if (value1 < 526) {
     Serial.println("8");  // up
   } else if (value1 > 528) {
-    brakeRead = HIGH;  // BRAKING
+    Serial.println("9");
   }
 
   if (value2 < 514) {  //GOING RIGHT
