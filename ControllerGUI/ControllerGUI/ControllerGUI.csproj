@@ -97,5 +97,17 @@
   <ItemGroup>
     <None Include="Resources\Analog_F.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gas_Pedal_Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gas_Pedal_Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Brake_Pedal_Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Brake_Pedal_Up.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

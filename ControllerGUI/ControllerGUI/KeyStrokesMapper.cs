@@ -43,25 +43,36 @@ namespace KeyStrokeSim
             HandleInputCommand(currentInputCommand);
         }
 
-        private void UpdateImg(char direction)
+        private void ResetGasPedal()
+        {
+            //check pedals state here too
+            _form.UpdateGasPedal(global::ControllerGUI.Properties.Resources.Gas_Pedal_Down);
+        }
+
+        private void ResetBrakePedal()
+        {
+            _form.UpdateBrakePedal(global::ControllerGUI.Properties.Resources.Brake_Pedal_Down);
+        }
+
+
+        private void UpdateJoystickImg(char direction)
         {
             if (direction == 'l' && currentDirIndicator != 'l')
             {
                 currentDirIndicator = 'l';
-                _form.updatePhoto(global::ControllerGUI.Properties.Resources.Analog_L);
+                _form.UpdateJoystickPhoto(global::ControllerGUI.Properties.Resources.Analog_L);
 
             }
             else if (direction == 'r' && currentDirIndicator != 'r')
             {
                 currentDirIndicator = 'r';
-                _form.updatePhoto(global::ControllerGUI.Properties.Resources.Analog_R);
+                _form.UpdateJoystickPhoto(global::ControllerGUI.Properties.Resources.Analog_R);
             }
             else if (direction == 'm' && currentDirIndicator != 'm')
             {
                 currentDirIndicator = 'm';
-                _form.updatePhoto(global::ControllerGUI.Properties.Resources.Analog_M);
+                _form.UpdateJoystickPhoto(global::ControllerGUI.Properties.Resources.Analog_M);
             }
-
         }
 
         private void HandleInputCommand(string inputcommand)
@@ -70,7 +81,9 @@ namespace KeyStrokeSim
             {
                 case "I":
                     Console.WriteLine("Idle");
-                    UpdateImg('m');
+                    UpdateJoystickImg('m');
+                    ResetGasPedal();
+                    ResetBrakePedal();
                     break;
                 case "A":
                     Console.WriteLine("Accelarate + Brake");
@@ -79,21 +92,27 @@ namespace KeyStrokeSim
                     Thread.Sleep(100);
                     keybd_event(VK_W, 0, KEYEVENTF_KEYUP, 0);
                     keybd_event(VK_S, 0, KEYEVENTF_KEYUP, 0);
-                    UpdateImg('m');
+                    UpdateJoystickImg('m');
+                    _form.UpdateGasPedal(global::ControllerGUI.Properties.Resources.Gas_Pedal_Up); //maybe turn this into -- check if imgType != down than update...
+                    _form.UpdateBrakePedal(global::ControllerGUI.Properties.Resources.Brake_Pedal_Up);
                     break;
                 case "B":
                     Console.WriteLine("Accelerating");
                     keybd_event(VK_W, 0, 0, 0);
                     Thread.Sleep(100);
                     keybd_event(VK_W, 0, KEYEVENTF_KEYUP, 0);
-                    UpdateImg('m');
+                    UpdateJoystickImg('m');
+                    _form.UpdateGasPedal(global::ControllerGUI.Properties.Resources.Gas_Pedal_Up);
+                    ResetBrakePedal();
                     break;
                 case "C":
                     Console.WriteLine("Braking");
                     keybd_event(VK_S, 0, 0, 0);
                     Thread.Sleep(100);
                     keybd_event(VK_S, 0, KEYEVENTF_KEYUP, 0);
-                    UpdateImg('m');
+                    UpdateJoystickImg('m');
+                    ResetGasPedal();
+                    _form.UpdateBrakePedal(global::ControllerGUI.Properties.Resources.Brake_Pedal_Up);
                     break;
                 case "0":
                     Console.WriteLine("Accelarate + Brake + Right");
@@ -104,7 +123,9 @@ namespace KeyStrokeSim
                     keybd_event(VK_W, 0, KEYEVENTF_KEYUP, 0);
                     keybd_event(VK_S, 0, KEYEVENTF_KEYUP, 0);
                     keybd_event(VK_D, 0, KEYEVENTF_KEYUP, 0);
-                    UpdateImg('r');
+                    UpdateJoystickImg('r');
+                    _form.UpdateGasPedal(global::ControllerGUI.Properties.Resources.Gas_Pedal_Up);
+                    _form.UpdateBrakePedal(global::ControllerGUI.Properties.Resources.Brake_Pedal_Up);
                     break;
                 case "1":
                     Console.WriteLine("Accelarate + Right");
@@ -113,7 +134,9 @@ namespace KeyStrokeSim
                     Thread.Sleep(100);
                     keybd_event(VK_W, 0, KEYEVENTF_KEYUP, 0);
                     keybd_event(VK_D, 0, KEYEVENTF_KEYUP, 0);
-                    UpdateImg('r');
+                    UpdateJoystickImg('r');
+                    _form.UpdateGasPedal(global::ControllerGUI.Properties.Resources.Gas_Pedal_Up);
+                    ResetBrakePedal();
                     break;
                 case "2":
                     Console.WriteLine("Brake + Right");
@@ -122,14 +145,18 @@ namespace KeyStrokeSim
                     Thread.Sleep(100);
                     keybd_event(VK_S, 0, KEYEVENTF_KEYUP, 0);
                     keybd_event(VK_D, 0, KEYEVENTF_KEYUP, 0);
-                    UpdateImg('r');
+                    UpdateJoystickImg('r');
+                    ResetGasPedal();
+                    _form.UpdateBrakePedal(global::ControllerGUI.Properties.Resources.Brake_Pedal_Up);
                     break;
                 case "3":
                     Console.WriteLine("Just Right");
                     keybd_event(VK_D, 0, 0, 0);
                     Thread.Sleep(100);
                     keybd_event(VK_D, 0, KEYEVENTF_KEYUP, 0);
-                    UpdateImg('r');
+                    UpdateJoystickImg('r');
+                    ResetGasPedal();
+                    ResetBrakePedal();
                     break;
                 case "4":
                     Console.WriteLine("Accelarate + Brake + Left");
@@ -140,7 +167,9 @@ namespace KeyStrokeSim
                     keybd_event(VK_W, 0, KEYEVENTF_KEYUP, 0);
                     keybd_event(VK_S, 0, KEYEVENTF_KEYUP, 0);
                     keybd_event(VK_A, 0, KEYEVENTF_KEYUP, 0);
-                    UpdateImg('l');
+                    UpdateJoystickImg('l');
+                    _form.UpdateGasPedal(global::ControllerGUI.Properties.Resources.Gas_Pedal_Up);
+                    _form.UpdateBrakePedal(global::ControllerGUI.Properties.Resources.Brake_Pedal_Up);
                     break;
                 case "5":
                     Console.WriteLine("Accelarate + Left");
@@ -149,7 +178,10 @@ namespace KeyStrokeSim
                     Thread.Sleep(100);
                     keybd_event(VK_W, 0, KEYEVENTF_KEYUP, 0);
                     keybd_event(VK_A, 0, KEYEVENTF_KEYUP, 0);
-                    UpdateImg('l');
+                    UpdateJoystickImg('l');
+                    _form.UpdateGasPedal(global::ControllerGUI.Properties.Resources.Gas_Pedal_Up);
+                    _form.UpdateBrakePedal(global::ControllerGUI.Properties.Resources.Brake_Pedal_Up);
+                    ResetBrakePedal();
                     break;
                 case "6":
                     Console.WriteLine("Brake + Left");
@@ -158,14 +190,18 @@ namespace KeyStrokeSim
                     Thread.Sleep(100);
                     keybd_event(VK_S, 0, KEYEVENTF_KEYUP, 0);
                     keybd_event(VK_A, 0, KEYEVENTF_KEYUP, 0);
-                    UpdateImg('l');
+                    UpdateJoystickImg('l');
+                    ResetGasPedal();
+                    _form.UpdateBrakePedal(global::ControllerGUI.Properties.Resources.Brake_Pedal_Up);
                     break;
                 case "7":
                     Console.WriteLine("Just Left");
                     keybd_event(VK_A, 0, 0, 0);
                     Thread.Sleep(100);
                     keybd_event(VK_A, 0, KEYEVENTF_KEYUP, 0);
-                    UpdateImg('l');
+                    UpdateJoystickImg('l');
+                    ResetGasPedal();
+                    ResetBrakePedal();
                     break;
                 case "8":
                     Console.WriteLine("UP");

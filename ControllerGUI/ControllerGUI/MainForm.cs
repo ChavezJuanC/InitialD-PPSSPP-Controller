@@ -17,9 +17,19 @@ namespace ControllerGUI
         }
 
         // Public method to update the button text from another class
-        public void updatePhoto(Bitmap img)
+        public void UpdateJoystickPhoto(Bitmap img)
         {
             JoyStickPictureBox.BackgroundImage = img;
+        }
+
+        public void UpdateGasPedal(Bitmap img)
+        {
+            Gas_Picture_Box.BackgroundImage = img;
+        }
+
+        public void UpdateBrakePedal(Bitmap img)
+        {
+            Brake_Picture_Box.BackgroundImage = img;
         }
 
         private void MainFormLoad(object sender, EventArgs e)
