@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\dosom\\OneDrive\\Escritorio\\InitialD-PPSSPP-Controller\\ControllerGUI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CF3F9E7D-31DB-4657-81BC-A202F3AA62AA}|ControllerGUI\\ControllerGUI.csproj|c:\\users\\dosom\\onedrive\\escritorio\\initiald-ppsspp-controller\\controllergui\\controllergui\\keystrokesmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF3F9E7D-31DB-4657-81BC-A202F3AA62AA}|ControllerGUI\\ControllerGUI.csproj|solutionrelative:controllergui\\keystrokesmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CF3F9E7D-31DB-4657-81BC-A202F3AA62AA}|ControllerGUI\\ControllerGUI.csproj|C:\\Users\\dosom\\OneDrive\\Escritorio\\InitialD-PPSSPP-Controller\\ControllerGUI\\controllergui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF3F9E7D-31DB-4657-81BC-A202F3AA62AA}|ControllerGUI\\ControllerGUI.csproj|solutionrelative:controllergui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CF3F9E7D-31DB-4657-81BC-A202F3AA62AA}|ControllerGUI\\ControllerGUI.csproj|C:\\Users\\dosom\\OneDrive\\Escritorio\\InitialD-PPSSPP-Controller\\ControllerGUI\\controllergui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CF3F9E7D-31DB-4657-81BC-A202F3AA62AA}|ControllerGUI\\ControllerGUI.csproj|solutionrelative:controllergui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF3F9E7D-31DB-4657-81BC-A202F3AA62AA}|ControllerGUI\\ControllerGUI.csproj|C:\\Users\\dosom\\OneDrive\\Escritorio\\InitialD-PPSSPP-Controller\\ControllerGUI\\controllergui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF3F9E7D-31DB-4657-81BC-A202F3AA62AA}|ControllerGUI\\ControllerGUI.csproj|solutionrelative:controllergui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CF3F9E7D-31DB-4657-81BC-A202F3AA62AA}|ControllerGUI\\ControllerGUI.csproj|c:\\users\\dosom\\onedrive\\escritorio\\initiald-ppsspp-controller\\controllergui\\controllergui\\keystrokesmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF3F9E7D-31DB-4657-81BC-A202F3AA62AA}|ControllerGUI\\ControllerGUI.csproj|solutionrelative:controllergui\\keystrokesmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,17 +22,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "KeyStrokesMapper.cs",
               "DocumentMoniker": "C:\\Users\\dosom\\OneDrive\\Escritorio\\InitialD-PPSSPP-Controller\\ControllerGUI\\ControllerGUI\\KeyStrokesMapper.cs",
               "RelativeDocumentMoniker": "ControllerGUI\\KeyStrokesMapper.cs",
               "ToolTip": "C:\\Users\\dosom\\OneDrive\\Escritorio\\InitialD-PPSSPP-Controller\\ControllerGUI\\ControllerGUI\\KeyStrokesMapper.cs",
               "RelativeToolTip": "ControllerGUI\\KeyStrokesMapper.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwEgAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAgwCEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-16T00:48:39.239Z",
               "EditorCaption": ""
@@ -46,19 +46,21 @@
               "ToolTip": "C:\\Users\\dosom\\OneDrive\\Escritorio\\InitialD-PPSSPP-Controller\\ControllerGUI\\ControllerGUI\\MainForm.cs [Design]",
               "RelativeToolTip": "ControllerGUI\\MainForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T00:15:23.772Z"
+              "WhenOpened": "2025-02-16T00:15:23.772Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MainForm.cs",
               "DocumentMoniker": "C:\\Users\\dosom\\OneDrive\\Escritorio\\InitialD-PPSSPP-Controller\\ControllerGUI\\ControllerGUI\\MainForm.cs",
               "RelativeDocumentMoniker": "ControllerGUI\\MainForm.cs",
               "ToolTip": "C:\\Users\\dosom\\OneDrive\\Escritorio\\InitialD-PPSSPP-Controller\\ControllerGUI\\ControllerGUI\\MainForm.cs",
               "RelativeToolTip": "ControllerGUI\\MainForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T05:33:26.712Z"
+              "WhenOpened": "2025-02-13T05:33:26.712Z",
+              "EditorCaption": ""
             }
           ]
         }

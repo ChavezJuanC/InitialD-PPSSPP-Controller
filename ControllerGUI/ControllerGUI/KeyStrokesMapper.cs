@@ -22,7 +22,7 @@ namespace KeyStrokeSim
         private readonly SerialPort serialPort = new SerialPort(comPort, 9600, Parity.None, 8, StopBits.One);
 
         private char currentDirIndicator = 'm';
-    
+
         // Constructor that accepts a MainForm instance
         private MainForm _form;
         public KeyStrokeEmiter(MainForm form)
@@ -51,10 +51,12 @@ namespace KeyStrokeSim
                 _form.updatePhoto(global::ControllerGUI.Properties.Resources.Analog_L);
 
             }
-            else if (direction == 'r' && currentDirIndicator != 'r'){
+            else if (direction == 'r' && currentDirIndicator != 'r')
+            {
                 currentDirIndicator = 'r';
                 _form.updatePhoto(global::ControllerGUI.Properties.Resources.Analog_R);
-            } else if(direction == 'm' && currentDirIndicator != 'm')
+            }
+            else if (direction == 'm' && currentDirIndicator != 'm')
             {
                 currentDirIndicator = 'm';
                 _form.updatePhoto(global::ControllerGUI.Properties.Resources.Analog_M);
@@ -66,6 +68,10 @@ namespace KeyStrokeSim
         {
             switch (inputcommand.Trim())
             {
+                case "I":
+                    Console.WriteLine("Idle");
+                    UpdateImg('m');
+                    break;
                 case "A":
                     Console.WriteLine("Accelarate + Brake");
                     keybd_event(VK_W, 0, 0, 0);

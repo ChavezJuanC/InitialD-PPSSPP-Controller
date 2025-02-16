@@ -1,5 +1,4 @@
-﻿using ControllerGUI.Properties;
-using KeyStrokeSim;
+﻿using KeyStrokeSim;
 using System;
 using System.Drawing;
 using System.Windows.Forms;
@@ -20,7 +19,7 @@ namespace ControllerGUI
         // Public method to update the button text from another class
         public void updatePhoto(Bitmap img)
         {
-            JoyStickPictureBox.BackgroundImage =img;
+            JoyStickPictureBox.BackgroundImage = img;
         }
 
         private void MainFormLoad(object sender, EventArgs e)

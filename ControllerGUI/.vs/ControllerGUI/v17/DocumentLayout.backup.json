@@ -13,13 +13,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CF3F9E7D-31DB-4657-81BC-A202F3AA62AA}|ControllerGUI\\ControllerGUI.csproj|C:\\Users\\dosom\\OneDrive\\Escritorio\\InitialD-PPSSPP-Controller\\ControllerGUI\\controllergui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CF3F9E7D-31DB-4657-81BC-A202F3AA62AA}|ControllerGUI\\ControllerGUI.csproj|solutionrelative:controllergui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF3F9E7D-31DB-4657-81BC-A202F3AA62AA}|ControllerGUI\\ControllerGUI.csproj|C:\\Users\\dosom\\OneDrive\\Escritorio\\InitialD-PPSSPP-Controller\\ControllerGUI\\controllergui\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF3F9E7D-31DB-4657-81BC-A202F3AA62AA}|ControllerGUI\\ControllerGUI.csproj|solutionrelative:controllergui\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|ControllerGUI||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,31 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ControllerGUI",
-              "DocumentMoniker": "C:\\Users\\dosom\\OneDrive\\Escritorio\\InitialD-PPSSPP-Controller\\ControllerGUI\\ControllerGUI\\ControllerGUI.csproj",
-              "RelativeDocumentMoniker": "ControllerGUI\\ControllerGUI.csproj",
-              "ToolTip": "C:\\Users\\dosom\\OneDrive\\Escritorio\\InitialD-PPSSPP-Controller\\ControllerGUI\\ControllerGUI\\ControllerGUI.csproj",
-              "RelativeToolTip": "ControllerGUI\\ControllerGUI.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-02-16T01:27:59.054Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\dosom\\OneDrive\\Escritorio\\InitialD-PPSSPP-Controller\\ControllerGUI\\ControllerGUI\\MainForm.Designer.cs",
-              "RelativeDocumentMoniker": "ControllerGUI\\MainForm.Designer.cs",
-              "ToolTip": "C:\\Users\\dosom\\OneDrive\\Escritorio\\InitialD-PPSSPP-Controller\\ControllerGUI\\ControllerGUI\\MainForm.Designer.cs",
-              "RelativeToolTip": "ControllerGUI\\MainForm.Designer.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAowEoAAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T01:15:44.113Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -62,7 +32,7 @@
               "RelativeDocumentMoniker": "ControllerGUI\\KeyStrokesMapper.cs",
               "ToolTip": "C:\\Users\\dosom\\OneDrive\\Escritorio\\InitialD-PPSSPP-Controller\\ControllerGUI\\ControllerGUI\\KeyStrokesMapper.cs",
               "RelativeToolTip": "ControllerGUI\\KeyStrokesMapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAiwCEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-16T00:48:39.239Z",
               "EditorCaption": ""
@@ -76,7 +46,8 @@
               "ToolTip": "C:\\Users\\dosom\\OneDrive\\Escritorio\\InitialD-PPSSPP-Controller\\ControllerGUI\\ControllerGUI\\MainForm.cs [Design]",
               "RelativeToolTip": "ControllerGUI\\MainForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T00:15:23.772Z"
+              "WhenOpened": "2025-02-16T00:15:23.772Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -88,7 +59,8 @@
               "RelativeToolTip": "ControllerGUI\\MainForm.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T05:33:26.712Z"
+              "WhenOpened": "2025-02-13T05:33:26.712Z",
+              "EditorCaption": ""
             }
           ]
         }

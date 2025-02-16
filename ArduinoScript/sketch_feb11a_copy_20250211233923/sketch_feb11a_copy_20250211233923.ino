@@ -61,6 +61,9 @@ void loop() {
       Serial.println("B");  //accelarate
     } else if (brakeRead) {
       Serial.println("C");  //brake
+    } else {
+      //idle
+      Serial.println("I");
     }
   }
 }
