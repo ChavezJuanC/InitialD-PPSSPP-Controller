@@ -89,7 +89,7 @@ namespace KeyStrokeSim
                     Console.WriteLine("Accelarate + Brake");
                     keybd_event(VK_W, 0, 0, 0);
                     keybd_event(VK_S, 0, 0, 0);
-                    Thread.Sleep(100);
+                    Thread.Sleep(75);
                     keybd_event(VK_W, 0, KEYEVENTF_KEYUP, 0);
                     keybd_event(VK_S, 0, KEYEVENTF_KEYUP, 0);
                     UpdateJoystickImg('m');
@@ -99,7 +99,7 @@ namespace KeyStrokeSim
                 case "B":
                     Console.WriteLine("Accelerating");
                     keybd_event(VK_W, 0, 0, 0);
-                    Thread.Sleep(100);
+                    Thread.Sleep(75);
                     keybd_event(VK_W, 0, KEYEVENTF_KEYUP, 0);
                     UpdateJoystickImg('m');
                     _form.UpdateGasPedal(global::ControllerGUI.Properties.Resources.Gas_Pedal_Up);
@@ -108,7 +108,7 @@ namespace KeyStrokeSim
                 case "C":
                     Console.WriteLine("Braking");
                     keybd_event(VK_S, 0, 0, 0);
-                    Thread.Sleep(100);
+                    Thread.Sleep(75);
                     keybd_event(VK_S, 0, KEYEVENTF_KEYUP, 0);
                     UpdateJoystickImg('m');
                     ResetGasPedal();
@@ -119,7 +119,7 @@ namespace KeyStrokeSim
                     keybd_event(VK_W, 0, 0, 0);
                     keybd_event(VK_S, 0, 0, 0);
                     keybd_event(VK_D, 0, 0, 0);
-                    Thread.Sleep(100);
+                    Thread.Sleep(75);
                     keybd_event(VK_W, 0, KEYEVENTF_KEYUP, 0);
                     keybd_event(VK_S, 0, KEYEVENTF_KEYUP, 0);
                     keybd_event(VK_D, 0, KEYEVENTF_KEYUP, 0);
@@ -131,7 +131,7 @@ namespace KeyStrokeSim
                     Console.WriteLine("Accelarate + Right");
                     keybd_event(VK_W, 0, 0, 0);
                     keybd_event(VK_D, 0, 0, 0);
-                    Thread.Sleep(100);
+                    Thread.Sleep(75);
                     keybd_event(VK_W, 0, KEYEVENTF_KEYUP, 0);
                     keybd_event(VK_D, 0, KEYEVENTF_KEYUP, 0);
                     UpdateJoystickImg('r');
@@ -142,7 +142,7 @@ namespace KeyStrokeSim
                     Console.WriteLine("Brake + Right");
                     keybd_event(VK_S, 0, 0, 0);
                     keybd_event(VK_D, 0, 0, 0);
-                    Thread.Sleep(100);
+                    Thread.Sleep(75);
                     keybd_event(VK_S, 0, KEYEVENTF_KEYUP, 0);
                     keybd_event(VK_D, 0, KEYEVENTF_KEYUP, 0);
                     UpdateJoystickImg('r');
@@ -152,7 +152,7 @@ namespace KeyStrokeSim
                 case "3":
                     Console.WriteLine("Just Right");
                     keybd_event(VK_D, 0, 0, 0);
-                    Thread.Sleep(100);
+                    Thread.Sleep(75);
                     keybd_event(VK_D, 0, KEYEVENTF_KEYUP, 0);
                     UpdateJoystickImg('r');
                     ResetGasPedal();
@@ -163,7 +163,7 @@ namespace KeyStrokeSim
                     keybd_event(VK_W, 0, 0, 0);
                     keybd_event(VK_S, 0, 0, 0);
                     keybd_event(VK_A, 0, 0, 0);
-                    Thread.Sleep(100);
+                    Thread.Sleep(75);
                     keybd_event(VK_W, 0, KEYEVENTF_KEYUP, 0);
                     keybd_event(VK_S, 0, KEYEVENTF_KEYUP, 0);
                     keybd_event(VK_A, 0, KEYEVENTF_KEYUP, 0);
@@ -175,7 +175,7 @@ namespace KeyStrokeSim
                     Console.WriteLine("Accelarate + Left");
                     keybd_event(VK_W, 0, 0, 0);
                     keybd_event(VK_A, 0, 0, 0);
-                    Thread.Sleep(100);
+                    Thread.Sleep(75);
                     keybd_event(VK_W, 0, KEYEVENTF_KEYUP, 0);
                     keybd_event(VK_A, 0, KEYEVENTF_KEYUP, 0);
                     UpdateJoystickImg('l');
@@ -187,7 +187,7 @@ namespace KeyStrokeSim
                     Console.WriteLine("Brake + Left");
                     keybd_event(VK_S, 0, 0, 0);
                     keybd_event(VK_A, 0, 0, 0);
-                    Thread.Sleep(100);
+                    Thread.Sleep(75);
                     keybd_event(VK_S, 0, KEYEVENTF_KEYUP, 0);
                     keybd_event(VK_A, 0, KEYEVENTF_KEYUP, 0);
                     UpdateJoystickImg('l');
@@ -197,7 +197,7 @@ namespace KeyStrokeSim
                 case "7":
                     Console.WriteLine("Just Left");
                     keybd_event(VK_A, 0, 0, 0);
-                    Thread.Sleep(100);
+                    Thread.Sleep(75);
                     keybd_event(VK_A, 0, KEYEVENTF_KEYUP, 0);
                     UpdateJoystickImg('l');
                     ResetGasPedal();
