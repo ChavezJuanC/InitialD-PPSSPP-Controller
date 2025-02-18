@@ -103,6 +103,16 @@ namespace ControllerGUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap anime_initial_d_final_stage_toyo {
+            get {
+                object obj = ResourceManager.GetObject("anime-initial-d-final-stage-toyo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Brake_Pedal_Down {
             get {
                 object obj = ResourceManager.GetObject("Brake_Pedal_Down", resourceCulture);

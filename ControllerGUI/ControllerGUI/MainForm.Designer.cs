@@ -31,15 +31,16 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.HomeLayout = new System.Windows.Forms.TableLayoutPanel();
             this.SetKeybindsButton = new System.Windows.Forms.Button();
-            this.JoyStickPictureBox = new System.Windows.Forms.PictureBox();
             this.Pedals_Layout = new System.Windows.Forms.TableLayoutPanel();
             this.Gas_Picture_Box = new System.Windows.Forms.PictureBox();
             this.Brake_Picture_Box = new System.Windows.Forms.PictureBox();
+            this.JoyStickPictureBox = new System.Windows.Forms.PictureBox();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.HomeLayout.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.JoyStickPictureBox)).BeginInit();
             this.Pedals_Layout.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Gas_Picture_Box)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Brake_Picture_Box)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.JoyStickPictureBox)).BeginInit();
             this.SuspendLayout();
             // 
             // HomeLayout
@@ -52,6 +53,7 @@
             this.HomeLayout.Controls.Add(this.SetKeybindsButton, 1, 2);
             this.HomeLayout.Controls.Add(this.Pedals_Layout, 2, 1);
             this.HomeLayout.Controls.Add(this.JoyStickPictureBox, 0, 1);
+            this.HomeLayout.Controls.Add(this.flowLayoutPanel1, 1, 1);
             this.HomeLayout.Dock = System.Windows.Forms.DockStyle.Fill;
             this.HomeLayout.Location = new System.Drawing.Point(0, 0);
             this.HomeLayout.Name = "HomeLayout";
@@ -73,17 +75,7 @@
             this.SetKeybindsButton.TabIndex = 0;
             this.SetKeybindsButton.Text = "Keybinds";
             this.SetKeybindsButton.UseVisualStyleBackColor = true;
-            // 
-            // JoyStickPictureBox
-            // 
-            this.JoyStickPictureBox.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.JoyStickPictureBox.BackgroundImage = global::ControllerGUI.Properties.Resources.Analog_M;
-            this.JoyStickPictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.JoyStickPictureBox.Location = new System.Drawing.Point(3, 55);
-            this.JoyStickPictureBox.Name = "JoyStickPictureBox";
-            this.JoyStickPictureBox.Size = new System.Drawing.Size(239, 139);
-            this.JoyStickPictureBox.TabIndex = 1;
-            this.JoyStickPictureBox.TabStop = false;
+            this.SetKeybindsButton.Click += new System.EventHandler(this.SetKeybindsButton_Click);
             // 
             // Pedals_Layout
             // 
@@ -97,7 +89,7 @@
             this.Pedals_Layout.Name = "Pedals_Layout";
             this.Pedals_Layout.RowCount = 1;
             this.Pedals_Layout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.Pedals_Layout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.Pedals_Layout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 139F));
             this.Pedals_Layout.Size = new System.Drawing.Size(200, 139);
             this.Pedals_Layout.TabIndex = 2;
             // 
@@ -123,6 +115,24 @@
             this.Brake_Picture_Box.TabIndex = 0;
             this.Brake_Picture_Box.TabStop = false;
             // 
+            // JoyStickPictureBox
+            // 
+            this.JoyStickPictureBox.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.JoyStickPictureBox.BackgroundImage = global::ControllerGUI.Properties.Resources.Analog_M;
+            this.JoyStickPictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.JoyStickPictureBox.Location = new System.Drawing.Point(3, 55);
+            this.JoyStickPictureBox.Name = "JoyStickPictureBox";
+            this.JoyStickPictureBox.Size = new System.Drawing.Size(239, 139);
+            this.JoyStickPictureBox.TabIndex = 1;
+            this.JoyStickPictureBox.TabStop = false;
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(248, 46);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(116, 158);
+            this.flowLayoutPanel1.TabIndex = 3;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -138,10 +148,10 @@
             this.Text = "Controller";
             this.Load += new System.EventHandler(this.MainFormLoad);
             this.HomeLayout.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.JoyStickPictureBox)).EndInit();
             this.Pedals_Layout.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.Gas_Picture_Box)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Brake_Picture_Box)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.JoyStickPictureBox)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -154,6 +164,7 @@
         private System.Windows.Forms.TableLayoutPanel Pedals_Layout;
         private System.Windows.Forms.PictureBox Gas_Picture_Box;
         private System.Windows.Forms.PictureBox Brake_Picture_Box;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
     }
 }
 

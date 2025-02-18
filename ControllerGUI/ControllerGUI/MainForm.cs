@@ -10,10 +10,12 @@ namespace ControllerGUI
     {
 
         readonly private KeyStrokeEmiter emiter;
+        readonly private KeyBindsForm bindsForm;
         public MainForm()
         {
             InitializeComponent();
             emiter = new KeyStrokeEmiter(this);
+            bindsForm = new KeyBindsForm(this);
         }
 
         // Public method to update the button text from another class
@@ -35,7 +37,26 @@ namespace ControllerGUI
         private void MainFormLoad(object sender, EventArgs e)
         {
             //start collecting data here
-            emiter.StartCollectingSerialPortData();
+            // emiter.StartCollectingSerialPortData();
+        }
+
+        public void ComeBackHome()
+        {
+            Point currentPosition = this.Location;
+            bindsForm.Hide();
+            this.StartPosition = FormStartPosition.Manual;
+            this.Location = currentPosition;
+            this.Show();
+        }
+
+        private void SetKeybindsButton_Click(object sender, EventArgs e)
+        {
+            Point currentPosition = this.Location;
+            // Get the current position of this form
+            this.Hide();
+            bindsForm.StartPosition = FormStartPosition.Manual;
+            bindsForm.Location = currentPosition;
+            bindsForm.Show();
         }
     }
 }

@@ -11,3 +11,4 @@ C:\Users\dosom\OneDrive\Escritorio\InitialD-PPSSPP-Controller\ControllerGUI\Cont
 C:\Users\dosom\OneDrive\Escritorio\InitialD-PPSSPP-Controller\ControllerGUI\ControllerGUI\bin\Debug\WindowsInput.dll
 C:\Users\dosom\OneDrive\Escritorio\InitialD-PPSSPP-Controller\ControllerGUI\ControllerGUI\bin\Debug\WindowsInput.xml
 C:\Users\dosom\OneDrive\Escritorio\InitialD-PPSSPP-Controller\ControllerGUI\ControllerGUI\obj\Debug\Controll.B92133AF.Up2Date
+C:\Users\dosom\OneDrive\Escritorio\InitialD-PPSSPP-Controller\ControllerGUI\ControllerGUI\obj\Debug\ControllerGUI.KeyBindsForm.resources

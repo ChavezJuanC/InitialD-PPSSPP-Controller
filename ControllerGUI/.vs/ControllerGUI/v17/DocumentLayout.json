@@ -3,11 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\dosom\\OneDrive\\Escritorio\\InitialD-PPSSPP-Controller\\ControllerGUI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CF3F9E7D-31DB-4657-81BC-A202F3AA62AA}|ControllerGUI\\ControllerGUI.csproj|c:\\users\\dosom\\onedrive\\escritorio\\initiald-ppsspp-controller\\controllergui\\controllergui\\keystrokesmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF3F9E7D-31DB-4657-81BC-A202F3AA62AA}|ControllerGUI\\ControllerGUI.csproj|solutionrelative:controllergui\\keystrokesmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CF3F9E7D-31DB-4657-81BC-A202F3AA62AA}|ControllerGUI\\ControllerGUI.csproj|c:\\users\\dosom\\onedrive\\escritorio\\initiald-ppsspp-controller\\controllergui\\controllergui\\keybindsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CF3F9E7D-31DB-4657-81BC-A202F3AA62AA}|ControllerGUI\\ControllerGUI.csproj|solutionrelative:controllergui\\keybindsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|ControllerGUI||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{CF3F9E7D-31DB-4657-81BC-A202F3AA62AA}|ControllerGUI\\ControllerGUI.csproj|c:\\users\\dosom\\onedrive\\escritorio\\initiald-ppsspp-controller\\controllergui\\controllergui\\keybindsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF3F9E7D-31DB-4657-81BC-A202F3AA62AA}|ControllerGUI\\ControllerGUI.csproj|solutionrelative:controllergui\\keybindsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CF3F9E7D-31DB-4657-81BC-A202F3AA62AA}|ControllerGUI\\ControllerGUI.csproj|C:\\Users\\dosom\\OneDrive\\Escritorio\\InitialD-PPSSPP-Controller\\ControllerGUI\\controllergui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,26 +31,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "KeyStrokesMapper.cs",
-              "DocumentMoniker": "C:\\Users\\dosom\\OneDrive\\Escritorio\\InitialD-PPSSPP-Controller\\ControllerGUI\\ControllerGUI\\KeyStrokesMapper.cs",
-              "RelativeDocumentMoniker": "ControllerGUI\\KeyStrokesMapper.cs",
-              "ToolTip": "C:\\Users\\dosom\\OneDrive\\Escritorio\\InitialD-PPSSPP-Controller\\ControllerGUI\\ControllerGUI\\KeyStrokesMapper.cs",
-              "RelativeToolTip": "ControllerGUI\\KeyStrokesMapper.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAiwG4AAAAjAAAAAAAAAA==",
+              "Title": "KeyBindsForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\dosom\\OneDrive\\Escritorio\\InitialD-PPSSPP-Controller\\ControllerGUI\\ControllerGUI\\KeyBindsForm.cs",
+              "RelativeDocumentMoniker": "ControllerGUI\\KeyBindsForm.cs",
+              "ToolTip": "C:\\Users\\dosom\\OneDrive\\Escritorio\\InitialD-PPSSPP-Controller\\ControllerGUI\\ControllerGUI\\KeyBindsForm.cs [Design]",
+              "RelativeToolTip": "ControllerGUI\\KeyBindsForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T00:48:39.239Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-18T07:31:05.116Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ControllerGUI",
-              "DocumentMoniker": "C:\\Users\\dosom\\OneDrive\\Escritorio\\InitialD-PPSSPP-Controller\\ControllerGUI\\ControllerGUI\\ControllerGUI.csproj",
-              "RelativeDocumentMoniker": "ControllerGUI\\ControllerGUI.csproj",
-              "ToolTip": "C:\\Users\\dosom\\OneDrive\\Escritorio\\InitialD-PPSSPP-Controller\\ControllerGUI\\ControllerGUI\\ControllerGUI.csproj",
-              "RelativeToolTip": "ControllerGUI\\ControllerGUI.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-02-16T21:18:02.978Z"
+              "Title": "KeyBindsForm.cs",
+              "DocumentMoniker": "C:\\Users\\dosom\\OneDrive\\Escritorio\\InitialD-PPSSPP-Controller\\ControllerGUI\\ControllerGUI\\KeyBindsForm.cs",
+              "RelativeDocumentMoniker": "ControllerGUI\\KeyBindsForm.cs",
+              "ToolTip": "C:\\Users\\dosom\\OneDrive\\Escritorio\\InitialD-PPSSPP-Controller\\ControllerGUI\\ControllerGUI\\KeyBindsForm.cs",
+              "RelativeToolTip": "ControllerGUI\\KeyBindsForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T07:45:03.273Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -60,7 +62,8 @@
               "ToolTip": "C:\\Users\\dosom\\OneDrive\\Escritorio\\InitialD-PPSSPP-Controller\\ControllerGUI\\ControllerGUI\\MainForm.cs [Design]",
               "RelativeToolTip": "ControllerGUI\\MainForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T00:15:23.772Z"
+              "WhenOpened": "2025-02-16T00:15:23.772Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -70,9 +73,10 @@
               "RelativeDocumentMoniker": "ControllerGUI\\MainForm.cs",
               "ToolTip": "C:\\Users\\dosom\\OneDrive\\Escritorio\\InitialD-PPSSPP-Controller\\ControllerGUI\\ControllerGUI\\MainForm.cs",
               "RelativeToolTip": "ControllerGUI\\MainForm.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAIwBEAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T05:33:26.712Z"
+              "WhenOpened": "2025-02-13T05:33:26.712Z",
+              "EditorCaption": ""
             }
           ]
         }

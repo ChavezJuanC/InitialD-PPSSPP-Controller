@@ -49,6 +49,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="KeyBindsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KeyBindsForm.Designer.cs">
+      <DependentUpon>KeyBindsForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,6 +64,9 @@
     <Compile Include="KeyStrokesMapper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="KeyBindsForm.resx">
+      <DependentUpon>KeyBindsForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -108,6 +117,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Brake_Pedal_Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anime-initial-d-final-stage-toyo.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
