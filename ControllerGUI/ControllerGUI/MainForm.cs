@@ -11,11 +11,12 @@ namespace ControllerGUI
 
         readonly private KeyStrokeEmiter emiter;
         readonly private KeyBindsForm bindsForm;
+
         public MainForm()
         {
             InitializeComponent();
             emiter = new KeyStrokeEmiter(this);
-            bindsForm = new KeyBindsForm(this);
+            bindsForm = new KeyBindsForm(this, emiter);
         }
 
         // Public method to update the button text from another class
@@ -37,12 +38,12 @@ namespace ControllerGUI
         private void MainFormLoad(object sender, EventArgs e)
         {
             //start collecting data here
-            // emiter.StartCollectingSerialPortData();
+            emiter.StartCollectingSerialPortData();
         }
 
-        public void ComeBackHome()
+        public void ComeBackHome(Point location)
         {
-            Point currentPosition = this.Location;
+            Point currentPosition = location;
             bindsForm.Hide();
             this.StartPosition = FormStartPosition.Manual;
             this.Location = currentPosition;
@@ -58,6 +59,7 @@ namespace ControllerGUI
             bindsForm.Location = currentPosition;
             bindsForm.Show();
         }
+
     }
 }
 
