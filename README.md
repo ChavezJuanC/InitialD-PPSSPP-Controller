@@ -29,31 +29,30 @@ Navigate to the project folder and open ControllerGUI.sln in Visual Studio.
 
 Edit the Serial Port Setting:
 
-    Go to:
+Go to:
 
-InitialD-PPSSPP-Controller/ControllerGUI/ControllerGUI/KeyStrokesMapper.cs  
+    InitialD-PPSSPP-Controller/ControllerGUI/ControllerGUI/KeyStrokesMapper.cs  
 
 Find this line:
 
-        private const string comPort = "COM4";  
+    private const string comPort = "COM4";  
 
-        Change "COM4" to match the correct COM port for your Arduino.
-
-    Build and run the project from Visual Studio.
+Change "COM4" to match the correct COM port for your Arduino.
+Build and run the project from Visual Studio.
 
 Running the GUI
 
 Once the Windows Forms app is running:
 
-    Make sure the Arduino is connected and on the correct COM port.
+Make sure the Arduino is connected and on the correct COM port.
 
-    Open PPSSPP and go to Control Settings.
+Open PPSSPP and go to Control Settings.
 
-    Ensure that the keybinds in the GUI match the keybinds you’ve set in PPSSPP.
-        The GUI lets you define which keystrokes are sent when the Arduino detects inputs.
-        Make sure these keystrokes match what PPSSPP expects (e.g., if PPSSPP is set to use Arrow Keys for steering, the GUI should send those keys).
+Ensure that the keybinds in the GUI match the keybinds you’ve set in PPSSPP.
+The GUI lets you define which keystrokes are sent when the Arduino detects inputs.
+Make sure these keystrokes match what PPSSPP expects (e.g., if PPSSPP is set to use Arrow Keys for steering, the GUI should send those keys).
 
-    Start racing in Initial D using your custom Arduino setup!
+Start racing in Initial D using your custom Arduino setup!
 
 Circuit Setup
 
